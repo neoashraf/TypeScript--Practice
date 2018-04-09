@@ -16,7 +16,7 @@ interface Point{  // naming convention first char uppercase
     y:number
 }
 
-let drawPoint = (Point)=>{
+let drawPoint = (Point)=>{   // x:number,y:number
     console.log(Point.x,Point.y);
 }
 
@@ -25,3 +25,4 @@ drawPoint ({
     y:4
 });
 
+// polymorhism needed
